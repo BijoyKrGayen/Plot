@@ -1,0 +1,5 @@
+library(ggplot2)
+tail(mpg)
+g <- ggplot(mpg, aes(cty, hwy)) +
+geom_point()
+print(g)
